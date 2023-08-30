@@ -7,7 +7,7 @@ class Graduando {
         this.curso = curso;
     }
 
-    cumprimentar() {
+    cumprimentar_dds() {
         console.log(`Olá, meu nome é ${this.name} e tenho ${this.curso}.`);
     }
 }
@@ -20,15 +20,15 @@ class Mestrando extends Graduando {
         this.especializacao = especializacao;
     }
 
-    cumprimentar(){
-        super.cumprimentar();
+    cumprimentar_dds(){
+        super.cumprimentar_dds();
         console.log(`Minha especialização é ${this.especializacao}.`);
     }
 }
 
 // Criando instâncias das classes
 const person = new Graduando("Daniel Dornelas", "Desenvolvimento de Software Multiplataforma");
-person.cumprimentar();
+person.cumprimentar_dds();
 
 const desenvolvedor = new Mestrando("Sandro", "Engenharia de Software", "Habilidades e Técnicas avaçadas para entrega de software");
-desenvolvedor.cumprimentar();
+desenvolvedor.cumprimentar_dds();
