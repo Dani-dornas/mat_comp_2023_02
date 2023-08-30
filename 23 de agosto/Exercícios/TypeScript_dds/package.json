@@ -1,0 +1,25 @@
+{
+  "name": "typescript_dds",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "um": "npx ts-node ./src/exer_2.1_dds",
+    "dois": "npx ts-node ./src/exer_2.2_dds",
+    "tres": "npx ts-node ./src/exer_2.3_dds",
+    "quatro": "npx ts-node ./src/exer_2.4_dds",
+    "cinco": "npx ts-node ./src/exer_2.5_dds",
+    "seis": "npx ts-node ./src/exer_2.6_dds",
+    "sete": "npx ts-node ./src/exer_2.7_dds",
+    "oito": "npx ts-node ./src/exer_2.8_dds",
+    "nove": "npx ts-node ./src/exer_2.9_dds",
+    "dez": "npx ts-node ./src/exer_2.10_dds"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
