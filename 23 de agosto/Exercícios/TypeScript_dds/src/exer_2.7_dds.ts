@@ -7,7 +7,7 @@ class Veiculo {
     this.latitude = latitude;
   }
 
-  mover(mov_longi: number, mov_lat: number) {
+  mover_dds(mov_longi: number, mov_lat: number) {
     this.longitude += mov_longi;
     this.latitude += mov_lat;
     console.log(
@@ -37,9 +37,10 @@ class Voador extends Eletrico {
     super(longitude, latitude, bateria);
     this.altitude = altitude;
   }
-  voar(mov_alti: number, mov_longi: number, mov_lat: number) {
+
+  voar_dds(mov_alti: number, mov_longi: number, mov_lat: number) {
     this.altitude += mov_alti;
-    this.mover(mov_longi, mov_lat);
+    this.mover_dds(mov_longi, mov_lat);
     console.log(
       `O veículo voa nas coordenadas de latitude: ${this.latitude}, longitude ${this.longitude} e altitude ${this.altitude}.`
     );
